@@ -1,0 +1,43 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "photon-e6789",
+          "appId": "1:723165137703:android:937ae0974aede37bb5b702",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "photon-e6789",
+          "configurations": {
+            "android": "1:723165137703:android:937ae0974aede37bb5b702"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "auth": {
+      "host": "localhost",
+      "port": 9099
+    },
+    "storage": {
+      "host": "localhost",
+      "port": 9199,
+      "rules": "storage.rules"
+    },
+    "ui": {
+      "enabled": true,
+      "host": "localhost",
+      "port": 4000
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-southeast1",
+    "rules": "firebase deploy --only firestore:indexes",
+    "indexes": "firestore.indexes.json"
+  }
+}

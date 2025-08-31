@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "723165137703",
+    "project_id": "photon-e6789",
+    "storage_bucket": "photon-e6789.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723165137703:android:937ae0974aede37bb5b702",
+        "android_client_info": {
+          "package_name": "com.example.photon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723165137703-v0kosabq370e90eoh53lfna2378hmhm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.photon",
+            "certificate_hash": "3595c91b86687c4a96653d68e844567a6c105d1c"
+          }
+        },
+        {
+          "client_id": "723165137703-8if46s25dn54qmsgjep3k7mlgg4rse19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDESLLbbYmWJ-RHPmm7eYo8f8PPexHShH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723165137703-8if46s25dn54qmsgjep3k7mlgg4rse19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

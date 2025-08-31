@@ -1,0 +1,65 @@
+name: photon
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+    # Firebase
+  # Firebase - Keep current versions for compatibility
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.6.0
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # UI & Media
+  country_picker: ^2.0.27
+  image_picker: ^1.2.0
+  cached_network_image: ^3.4.1
+  video_player: ^2.8.1
+  emoji_picker_flutter: ^2.0.0
+  story_view: ^0.16.0
+
+  # Contacts & Permissions
+  flutter_contacts: ^1.1.9+2
+  permission_handler: ^11.0.0
+
+  # Audio & Utils
+  flutter_sound: ^9.2.13
+  path_provider: ^2.0.11
+  audioplayers: ^6.5.0
+  uuid: ^4.5.1
+  intl: ^0.20.0
+  http: ^1.1.0
+  swipe_to: ^1.0.6
+  giphy_get: ^3.6.1
+  enough_giphy_flutter: ^0.3.0
+
+  # Agora - Use stable compatible versions
+  agora_rtc_engine: ^6.3.2
+  agora_rtm: ^1.6.3  # Changed to stable version
+
+# Updated dependency overrides for compatibility
+dependency_overrides:
+  agora_rtm: ^1.6.3  # Use stable version
+  iris_method_channel: ^1.0.4  # Compatible version
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo_icon.png
+    - assets/user_icon.png
